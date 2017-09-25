@@ -158,9 +158,9 @@ int main() {
                 backgroundMusic.play();
             gamePause = false;
         }
-        if(score2Counter == 10)
+        if(score2Counter == 5)
             window.draw(victor2);
-        else if(score1Counter == 10)
+        else if(score1Counter == 5)
             window.draw(victor1);
         window.display();
 
